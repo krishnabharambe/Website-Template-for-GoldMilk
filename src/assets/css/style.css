@@ -1,53 +1,83 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    min-height: 100%;
+#TopHeaderMenu {
+    background-color: coral;
 }
 
-#mainlogo {
-    width: 250px;
+#TopHeaderMenu p {
+    margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover,
-a:focus,
-a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
-#img-1 {
-
-    line-height: 85vh;
-    background-size: cover;
-    height: 85vh;
-    background-size: 100% 100%;
-    background-image: url("./../img/mainDashboard/1.jpg");
-    background-repeat: repeat;
-}
-
-#img-2 {
-    height: 85vh;
-    background-size: 100% 100%;
-    background-image: url("./../img/mainDashboard/2.jpg");
+#fold-1 {
+    background-image: url("./../img/mainDashboard/1.jpg") !important;
+    padding: 8rem;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#title-1 #content-1{
-    color: aliceblue;
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: right;
-    line-height: normal;
-    font-size: 2em;
-    font-weight: 700;
+#fold-2 {
+    background-image: url("./../img/mainDashboard/2.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#fold-3 {
+    background-image: url("./../img/mainDashboard/3.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fold-4 {
+    background-image: url("./../img/mainDashboard/4.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fold-5 {
+    background-image: url("./../img/mainDashboard/5.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fold-6 {
+    background-image: url("./../img/mainDashboard/6.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fold-7 {
+    background-image: url("./../img/mainDashboard/7.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fold-8 {
+    background-image: url("./../img/mainDashboard/8.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1 {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    text-shadow: 5px 5px 15px black;
+}
+
+#text-headering{
+    text-shadow: 5px 5px 15px black;
+}
+
+label{
+    font-weight: 600;       
+    text-shadow: 5px 5px 15px black;
 }
