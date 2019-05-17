@@ -1,0 +1,12 @@
+#ffold-1 {
+    background-image: url("./../img/mainDashboard/fodder/fodder1.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ffold-2 {
+    background-image: url("./../img/mainDashboard/fodder/fodder2.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
