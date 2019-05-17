@@ -1,0 +1,12 @@
+#dfold-1 {
+    background-image: url("./../img/mainDashboard/desserts/desserts1.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dfold-2 {
+    background-image: url("./../img/mainDashboard/desserts/desserts2.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
