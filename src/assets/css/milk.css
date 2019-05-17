@@ -1,0 +1,13 @@
+#mfold-1 {
+    background-image: url("./../img/mainDashboard/milk/milk1.jpg") !important;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1 {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    text-shadow: 5px 5px 15px black;
+}
