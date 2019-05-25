@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/ghee.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
 </head>
 
 <body>
@@ -61,90 +61,70 @@
             </div>
         </nav>
     </section>
-    <section id="fold">
-        <div id="gfold-1">
-            <div class="container-1 container text-white">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                    attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.
-                </p>
-                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+    <div class="container pt-2">
+        <div class="row ">
+            <!-- <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="gallery-title">Gallery</h1>
+            </div> -->
+
+            <div align="center" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="Media">Media</button>
+                <button class="btn btn-default filter-button" data-filter="PhotoGallery">Photo Gallery</button>
+                <button class="btn btn-default filter-button" data-filter="VideoGallery">Video Gallery</button>
             </div>
-            <!-- /.container -->
-        </div>
+    
 
 
-        <div id="gfold-2">
-            <div class="container-1 container text-white">
-                <h1>What we need?</h1>
-                <ol>
-                    <li>What is Ghee??(difference butter and clarified butter)</li>
-                    <li>why it is prefered over normal oil?</li>
-                    <li>Its medical benefits</li>
-                </ol>
-
-                <ol>
-                    <li>Prouction method </li>
-                    and
-                    <li>Health Benefits</li>
-                </ol>
-                <h5>This section covers 5 to 7 folds. <br> The graphical/Tree/Tableprescription are easy to understand.
-                    <br> So if possible present them in those formats</h5>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Media">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
             </div>
-            <!-- /.container -->
-        </div>
 
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PhotoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
 
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Media">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
 
-        <div id="fold-5">
-            <div class="container text-white">
-                <div class="d-flex">
-                    <div class="p-2  w-50">
-                        <div class="text-center" id="text-headering">
-                            <h1>SAY A WORD ABOUT US</h1>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Name</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                                placeholder="Name.....">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PhotoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
 
-                        </div>
-                        <div class="form-group">
-                            <label for="">Contact</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId"
-                                placeholder="email/Phone/Mobile...">
-                        </div>
-                        <div class="form-group">
-                            <label for="">Message</label>
-                            <textarea class="form-control" name="" id="" rows="5"
-                                placeholder="Your message please...."></textarea>
-                        </div>
-                        <input name="" id="" class="btn btn-primary float-right" type="submit" value="Sent Message">
-                    </div>
-                    <div class="p-2 w-50">
-                        <div class="text-center" id="text-headering">
-                            <h1>VISIT US </h1>
-                        </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter VideoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
 
-                        <div class="card text-white mt-4 bg-secondary">
-                            <div class="card-body">
-                                <h4 class="card-title">Lorem, ipsum.</h4>
-                                <p>Lorem ipsum dolor sit.</p>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                                <p>Lorem ipsum dolor sit. 443001 </p>
-                            </div>
-                            <div class="card-footer">
-                                locate us on google map.<br><br>
-                                <a class="btn btn-primary" href=""><i class="fas fa-map-marked"></i> Go to Map</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Media">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter VideoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PhotoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PhotoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Media">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter VideoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PhotoGallery">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
             </div>
         </div>
+    </div>
     </section>
 
     <section>
@@ -227,6 +207,32 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".filter-button").click(function () {
+                var value = $(this).attr('data-filter');
+
+                if (value == "all") {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                } else {
+                    //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.' + value).hide('3000');
+                    $('.filter').filter('.' + value).show('3000');
+
+                }
+            });
+
+            if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+        });
     </script>
 </body>
 
